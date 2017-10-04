@@ -1,0 +1,24 @@
+{
+    "name": "webimpress/github-labels",
+    "description": "Get repositories' labels for specific github user or organization",
+    "type": "library",
+    "homepage": "https://github.com/webimpress/github-labels",
+    "licence": "BSD-2-Clause",
+    "support": {
+        "issues": "https://github.com/webimpress/github-labels/issues",
+        "source": "https://github.com/webimpress/github-labels"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "require": {
+        "php": "^5.6 || ^7.0",
+        "knplabs/github-api": "^2.6",
+        "php-http/guzzle6-adapter": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Webimpress\\GithubLabels\\": "src/"
+        }
+    }
+}
