@@ -6,11 +6,11 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css">
     </head>
 
-    <body>
+    <body class="container">
 
     <h1>Labels: <a href="https://github.com/<?php echo $username; ?>"><?php echo $username; ?></a></h1>
 
-    <table class="table table-stripped">
+    <table class="table table-striped">
         <thead>
         <tr>
             <th>Repository name</th>
@@ -34,7 +34,14 @@
     </table>
 
     <footer>
-        <p>Generated at: <i><?php echo date('r'); ?></i></p>
+        <div class="row">
+            <div class="col-md-6">
+                <p>Copyright &copy; <?php echo date('Y'); ?>, Michał Bundyra</p>
+            </div>
+            <div class="col-md-6">
+                <p class="pull-right">Generated at: <i><?php echo date('r'); ?></i></p>
+            </div>
+        </div>
     </footer>
 
     </body>

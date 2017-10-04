@@ -34,4 +34,4 @@ File is generated using template
 ### `bin/run.php <username> <github-token>`
 
 The script uses two previous script: `bin/fetch.php` and `bin/generate.php`
-and generate output html file in `html/` directory.
+and generate output html file in `docs/` directory.

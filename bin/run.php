@@ -11,5 +11,5 @@ list($bin, $username, $token) = $argv;
 
 $tmp = tempnam(sys_get_temp_dir(), $username);
 exec(sprintf('bin/fetch.php %s %s %s', $username, $token, $tmp));
-$html = sprintf('html/%s.html', $username);
+$html = sprintf('docs/%s.html', $username);
 exec(sprintf('bin/generate.php %s %s %s', $username, $tmp, $html));
