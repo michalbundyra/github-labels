@@ -1,12 +1,11 @@
 {
-    "name": "webimpress/github-labels",
+    "name": "michalbundyra/github-labels",
     "description": "Get repositories' labels for specific github user or organization",
-    "type": "library",
-    "homepage": "https://github.com/webimpress/github-labels",
+    "homepage": "https://github.com/michalbundyra/github-labels",
     "license": "BSD-2-Clause",
     "support": {
-        "issues": "https://github.com/webimpress/github-labels/issues",
-        "source": "https://github.com/webimpress/github-labels"
+        "issues": "https://github.com/michalbundyra/github-labels/issues",
+        "source": "https://github.com/michalbundyra/github-labels"
     },
     "config": {
         "sort-packages": true
